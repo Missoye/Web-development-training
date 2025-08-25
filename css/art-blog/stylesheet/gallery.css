@@ -1,0 +1,9 @@
+.content{
+    height: 80vh;
+    width: 90%;
+    margin: 50px auto;
+    background: linear-gradient(60deg,rgba(0, 128, 0, 0.6), rgba(238, 130, 238, 0.6)),url(../images/forest-2.jpg);
+    background-position: 100% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

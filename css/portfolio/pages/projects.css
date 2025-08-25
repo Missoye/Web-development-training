@@ -1,0 +1,13 @@
+.card-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.card{
+    margin: 0px auto;
+    img {
+  width: 50%;   
+  height: auto;
+};
+color: violet;
+}

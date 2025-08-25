@@ -1,0 +1,10 @@
+.content{
+    max-width: 1050px;
+    width: 100%;
+    margin: 50px auto;
+}
+
+.article-banner img{
+    max-width: 100%;
+    width: 100%;
+}

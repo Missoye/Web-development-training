@@ -1,0 +1,47 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.henny-penny-regular {
+  font-family: "Henny Penny", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+header {
+  display: flex;
+  justify-content: space-between; /* pushes logo left, nav right *     
+      /* aligns vertically */align-items: center;
+    background-color: beige;
+}
+header nav ul{
+    display:flex;
+    gap:20px;
+    padding-right: 20px;
+    list-style: none;
+}
+header nav ul a{
+    text-decoration: none;
+    color: violet;
+    font-weight: bold
+}
+main{
+     background: linear-gradient(rgba(238, 130, 238, 0.6), rgba(238, 130, 238, 0.6)), 
+              url("./images/violet3.jpg") center/cover no-repeat;
+}
+.logo img{
+    height: 100px;
+     border-radius: 50%;
+     padding: 5%;
+}
+footer{
+    background-color: beige;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    color: violet;
+    text-align: center;
+}
+main h1{
+    color: beige;
+    -webkit-text-stroke: 0.2px black;
+}

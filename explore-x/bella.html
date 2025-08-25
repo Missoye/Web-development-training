@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bella Vista</title>
+    <link rel="stylesheet" href="bellastyle.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="bella">
+            <h3>Bella Vista</h3>
+        <nav>
+            <ul>
+                <li><a href="#Menu">Menu</a></li>
+                <li><a href="#About Us"> About Us</a></li>
+                <li><a href="#Reservations">Reservations</a></li>
+                <li><a href="#Reviews"> Reviews</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </nav>
+        </div>
+        <div class="Authentic">
+            <h2>Authentic Italian Excellence </h2>
+            <p>Experience the finest Italian cuisine in an elegant atmosphere</p>
+            <button onclick="location.href='#reservations'">Make Reservations</a></button>
+        </div>
+    </header>
+    <!-- OUR SIGNATURE DISHES -->
+    <section class="dishes">
+        <h2>Our Signature Dishes</h2>
+        <div>
+            <article class="options">
+                <img src="images_bellavista/images/truffle-risotto.webp" alt="truffle-risotto" width="300" height="200">
+                <div>
+                    <h3>
+                        Truffle Risotto
+                    </h3>
+                    <p>
+                        Creamy Arborio rice with truffle, parmesan, and fresh herbs
+                    </p>
+                    <h3>$ 32</h3>
+                </div>
+            </article>
+            <article class="options">
+                <img src="images_bellavista/images/osso-buco.webp" alt="osso-buco" width="300" height="200">
+                <div>
+                    <h3>
+                        Osso Buco
+                    </h3>
+                    <p>
+                        Braised veal shank swith vegetables, white wine, and broth
+                    </p>
+                    <h3>$ 45</h3>
+                </div>
+            </article>
+            <article class="options">
+                <img src="images_bellavista/images/tiramisu.webp" alt="tiramisu" width="300" height="200">
+                <div>
+                    <h3>
+                        Tiramisu
+                    </h3>
+                    <p>
+                        Classical Italian dessert with coffee-soaked ladyfingers and mascarpone.
+                    </p>
+                    <h3>$ 12</h3>
+                </div>
+            </article>
+        </div>
+    </section>
+    <!-- OUR MENU CATEGORIES -->
+    <section>
+        <h2 id="menu">Our Menu Categories </h2>
+        <div>
+            <span>🍝</span>
+            <h4>Pasta</h4>
+            <p>Handcrafted pasta with authentic Italian sauces.
+            </p>
+        </div>
+        <div>
+            <span>🥩</span>
+            <h4>Main Courses</h4>
+            <p>Premium meats and seafood pepared to perfection.
+            </p>
+        </div>
+        <div>
+            <span>🍷</span>
+            <h4>Wine Selection</h4>
+            <p>Curated Italian wines from renowned vineyards.
+            </p>
+        </div>
+        <div>
+            <span>🍰</span>
+            <h4>Desserts</h4>
+            <p>Traditional Italian sweets and modern creations.
+            </p>
+        </div>
+    </section>
+    <!-- ABOUT BELLA VISTA -->
+    <section>
+        <h2>About Bella Vista</h2>
+        <article>
+            <p> For about 20 years, Bella Vista has been serving authentic Italian cuisine in the heart of the city. Our
+                passion for traditional recipies combined with modern culinary techniques creates an unforgettable
+                dining experience. We source the finest ingredients from Italy and local farms to ensure every dish
+                reflects the true essence of Italian gastronomy. </p>
+            <div>
+                <img src="images_bellavista/images/chef.webp" alt="chef" height="200" width="200">
+                <div>
+                    <h3>Chef Marco Rossi</h3>
+                    <p>
+                        With 25 years of experience in Italian cuisine, Chef Marco brings authentic flavors from his
+                        hometown in Tuscany to every dish he creates.
+                    </p>
+                </div>
+            </div>
+        </article>
+    </section>
+    <!--WHAT OUR GUESTS SAY  -->
+    <section>
+        <h2>What Our Guests Say</h2>
+        <section>
+            <div>
+                <blockquote>
+                    <p> The most authentic food outside of Italy! The truffle risoto was absolutely divine.</p>
+                </blockquote>
+                <p>-Sarah Johnson </p>
+            </div>
+            <div>
+                <blockquote>
+                    <p> Exceptional service and incredible atmosphere. Perfect for our anniversary dinner!</p>
+                </blockquote>
+                <p>-Micheal & Lisa Brown </p>
+            </div>
+            <div>
+                <blockquote>
+                    <p> Chief Marco's pasta is unmatched. We come here every month and it never disappoints.</p>
+                </blockquote>
+                <p>-David Chen </p>
+            </div>
+        </section>
+    </section>
+    <!--MAKE A RESERVATION -->
+    <section>
+        <h2 id="reservations">Make a Reservation</h2>
+        <section>
+            <div>
+                <p>Full Name</p>
+                <form>
+                    <input type="text" placeholder="Your Full Name">
+                </form>
+            </div>
+            <div>
+                <p>Email</p>
+                <form>
+                    <input type="email" placeholder="Your Email">
+                </form>
+            </div>
+            <div>
+                <form>
+                    <label for "phonenumber"> Phone Number
+
+                    </label>
+                    <input type="tel" placeholder="Your Phone Number">
+                </form>
+            </div>
+            <div>
+                <form>
+                    <label for "partysize"> Party Size </label>
+                    <select id="partysize" name="party">
+                        <option value="">Select Size</option>
+                        <option value="small">Small</option>
+                        <option value="medium">Medium</option>
+                        <option value="large">Large</option>
+                    </select>
+                </form>
+            </div>
+            <div>
+                <label for="date">Date</label>
+                <input type="date">
+            </div>
+            <div>
+                <label for="time"> Time</label>
+                <select id="time" name="times">
+                    <option value="">Select Time</option>
+                    <option value="morning">morning</option>
+                    <option value="afternoon">Afternoon</option>
+                    <option value="night">Night</option>
+                </select>
+            </div>
+            <div>
+                <label for="Special Requests">Special Requests
+                </label>
+                <textarea rows="20" cols="100" placeholder="Any special dietary requirements or occasions"></textarea>
+            </div>
+            <div><button>Book Table</button></div>
+        </section>
+    </section>
+    <!-- Visit Us -->
+    <section>
+        <div>
+            <h2 id="contact">Visit Us</h2>
+            <div>
+                <h3>Address</h3>
+            </div>
+            <p>
+                123 Gourmet Street
+                Downtown District
+                New York, NY 10001
+            </p>
+            <div>
+                <h3>Contact</h3>
+            </div>
+            <div>
+                <p>Phone:</p>
+                <a href="+123-456-7890">+123-456-7890</a>
+            </div>
+            <div>
+                <p>Email:</p>
+                <a href="mailto:contact@explorex.com">contact@explorex.com</a>
+            </div>
+        </div>
+        <div>
+            <h3>Opening Hours</h3>
+            <table border="1">
+                <tr>
+                    <th>Day</th>
+                    <th> Hours</th>
+                </tr>
+                <tr>
+                    <td>Monday-Thursday</td>
+                    <td>5:30PM-10:00PM</td>
+                </tr>
+                <tr>
+                    <td>Friday-Saturday</td>
+                    <td>5:30PM-11:00PM</td>
+                </tr>
+                <tr>
+                    <td>Sunday</td>
+                    <td>5:00PM-9:30PM</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <!-- Stay Updated -->
+    <section>
+        <div>
+            <h3>Stay Updated</h3>
+            <p>Subscribe to receive exclusive offers and culinary updates </p>
+            <form>
+                <input type="email" placeholder="Enter your email...">
+            </form>
+            <button>Subscribe</button>
+    </section>
+    </div>
+    <div>
+        <article>
+            <h3>
+                Bella Vista
+            </h3>
+            <p>
+                Authentic Italian dining experience in the heart of the city
+            </p>
+        </article>
+    </div>
+    <div>
+        <article>
+            <h3>
+                Quick Links
+            </h3>
+            <ul>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#reservations">Reservations</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </article>
+    </div>
+    <div>
+        <article>
+            <h3>
+                Follow Us
+            </h3>
+            <ul>
+                <li><a href="https://facebook.com">facebook</a></li>
+                <li><a href="https://instagram.com">Reservations</a></li>
+                <li><a href="https://x.com">X</a></li>
+            </ul>
+        </article>
+    </div>
+    <footer>
+        <p>&copy; Bella Vista Restaurant . All rights reserved</p>
+    </footer>
+
+</body>
+
+</html>

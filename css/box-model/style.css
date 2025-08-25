@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.page{
+    /* height: 500px;
+    width: 500px; */
+    margin-left: 60px;
+    margin-bottom: 80px;
+    margin-top: 50px;
+    margin-right: 10px;
+    background-color: gray;
+/* padding */
+padding:20px 45px 30px 90px
+border;
+}
+
+.page h1{
+    background-color: orangered;
+    border-width: 5px;
+    border-style: solid;
+    border-color: green;
+}

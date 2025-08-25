@@ -1,0 +1,31 @@
+/* CSS RESET */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+/* TAGS  */
+div{
+    background-color: red;
+    height: 400px;
+    width: 500px;
+}
+h1{
+    color: white;
+}
+section{
+    background-color: green;
+    height: 500px;
+    width: 400px;
+}
+/* CLASS SELECTORS */
+.content{
+    background-color: purple;
+}
+.blog_Post{
+    background-color: black;
+    color: white;
+}
+.blog_title{
+    color: orangered;
+}

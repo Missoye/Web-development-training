@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content{
+    background-color: green;
+    height: 50vh;
+
+}
+h1{
+    font-size: 90px;
+    text-align: center;
+    color: white;
+}
+@media(width<=1400px){
+    .content{
+        background-color: red;
+    }
+}
+@media(width<=1150px){
+    h1{
+        font-size: 60px;
+    }
+}
+@media(width<=1150px){
+    h1{
+        font-size: 30px;
+    }
+}
+@media(width<=900px){
+    .content{
+        background-color: blue;
+    }
+}

@@ -1,0 +1,11 @@
+*{
+    margin: 50px;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content{
+    background: linear-gradient(120deg,red,yellow,green);
+    height:80vh;
+    width: 90%;
+    margin: 50px auto;
+}

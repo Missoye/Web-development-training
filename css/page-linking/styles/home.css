@@ -1,0 +1,11 @@
+.home{
+    height: 100vh;
+   background-color: brown; 
+   color: white ;
+}
+.card{
+    height: 600px;
+    width: 1000px;
+    background-color: white;
+    border-radius: 20px;
+}

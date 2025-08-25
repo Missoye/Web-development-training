@@ -1,0 +1,45 @@
+.connect{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../images/oye_pic.JPG');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+    color: beige;
+    font-size: 40px;
+}
+.connect button{
+  background-color: violet;  
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: none;
+  color: beige;
+}
+.contact-details ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+   gap: 5px;
+   padding: 10px;
+}
+.contact-details ul a{
+ text-decoration: none;
+}
+.contact-form form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.contact-form button{
+ background-color:  beige;  
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  color:violet;   
+}

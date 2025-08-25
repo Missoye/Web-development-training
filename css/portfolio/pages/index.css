@@ -1,0 +1,62 @@
+/* main{
+    display: flex;
+    flex-direction: column;
+} */
+.homeheading {
+    padding-bottom: 20px;
+}
+
+.picandtext {
+    display: flex;
+    align-items: center;
+    min-height: 70vh;
+    padding: 0px 80px;
+    color: beige;
+    gap: 50px;
+    width: 100%;
+    justify-content: center;
+    
+}
+.image{
+    height: 400px;
+    background-image: url(../images/Priscy-behind-laptop.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    border-radius: 30%;
+    outline: 5px solid beige;
+    outline-offset: 10px;
+}
+
+.Introduction {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.Introduction h3 {
+    font-size: 200%;
+    color: beige;
+    padding: 10px 0px;
+}
+
+.aboutskills {
+    display: flex;
+    gap: 10px;
+    max-width: 900px;
+    margin: 0 auto;
+    box-shadow: 5px;
+}
+
+.about-me {
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+
+}
+
+.skills {
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}

@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+.navigation ul{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+.navigation ul a{
+    color: yellow;
+}
