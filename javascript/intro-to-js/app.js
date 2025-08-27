@@ -101,6 +101,27 @@ function greetUser(username){
 
 
 
+//  shopping list calculator
+let itemonePrice=340;
+let itemTwoPrice=98.98;
+let itemThreePrice=574;
+
+let totalCostofItems = itemonePrice + itemTwoPrice + itemThreePrice;
+
+// methods
+let itemsDiscount=totalCostofItems*0.1;
+let finalTotal = totalCostofItems-itemsDiscount;
+
+console.log(`The cost of the three items:GHS${totalCostofItems.toFixed(2)}`);
+console.log(`Discount:GHS${itemsDiscount.toFixed(2)}`);
+console.log(`The total amount to be paid:GHS${finalTotal.toFixed(2)}`);
+
+
+
+
+
+
+
 
 
 
