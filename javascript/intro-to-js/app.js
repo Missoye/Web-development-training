@@ -116,6 +116,23 @@ console.log(`The cost of the three items:GHS${totalCostofItems.toFixed(2)}`);
 console.log(`Discount:GHS${itemsDiscount.toFixed(2)}`);
 console.log(`The total amount to be paid:GHS${finalTotal.toFixed(2)}`);
 
+// day 2 Restaurant Bill Calculator
+// 1. Create variables for three meal prices (appetizer, main course, dessert)
+const appetizer=190;
+const mainCourse=250;
+const dessert=130;
+// 2. Calculate the total bill
+const totalBill=appetizer + mainCourse + dessert;
+// 3. Calculate a 15% tip on the total
+const tip=0.15*totalBill;
+// 4. Add the tip to the total bill
+const finalBill=tip + totalBill;
+// 5. Print the final amount to pay
+console.log(`you have a totalbill of ${finalBill}`);
+// Other Information
+// Calculate how much each person pays if the bill is split between 4 people
+let billSplit=finalBill/4;
+console.log(`Each person pays ${billSplit.toFixed(2)}`)
 
 
 
